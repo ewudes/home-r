@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     browserSync = require('browser-sync');
 
-function sync(done) {
+function sync() {
   browserSync.init({
     server: {
       baseDir: "app"
@@ -10,10 +10,15 @@ function sync(done) {
   });
 }
 
+function browserReload(done) {
+  browserSync.reload()
+  done();
+}
+
 function watch() {
-  gulp.watch('app/*.html', browserSync.reload);
-  gulp.watch('app/js/**/*.js', browserSync.reload);
-  gulp.watch('app/css/**/*.css', browserSync.reload);
+  gulp.watch('app/*.html', browserReload);
+  gulp.watch('app/js/**/*.js', browserReload);
+  gulp.watch('app/css/**/*.css', browserReload);
 }
 
 gulp.task('default', gulp.parallel(sync, watch));
