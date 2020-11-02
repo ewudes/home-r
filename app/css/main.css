@@ -39,13 +39,16 @@ body {
   float: right;
 }
 
-.container:before, .clearfix:before,
-.container:after, .clearfix:after {
+.container:before,
+.clearfix:before,
+.container:after,
+.clearfix:after {
   content: '';
   display: table;
 }
 
-.container:after, .clearfix:after {
+.container:after,
+.clearfix:after {
   clear: both;
 }
 
@@ -64,20 +67,9 @@ body {
   margin-bottom: 39px;
 }
 
-.page-header .header-logo-link {
-  position: absolute;
-  top: 39px;
-  left: 0;
-}
-
-.page-header .header-logo-text {
-  position: absolute;
-  left: -9999px;
-}
-
 .page-header .socials {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 36px;
 }
 
@@ -104,27 +96,22 @@ body {
   height: 100%;
   width: 100%;
   text-indent: -9999px;
-  background: url(../img/socials.png) no-repeat;
 }
 
 .socials .socials-link.vk {
-  background-position: -2px -3px;
+  background-image: url('../img/vk.svg');
 }
 
 .socials .socials-link.tw {
-  background-position: -71px -3px;
+  background-image: url('../img/tw.svg');
 }
 
 .socials .socials-link.fb {
-  background-position: -140px -3px;
+  background-image: url('../img/facebook.svg');
 }
 
 .socials .socials-link.gt {
-  background-position: -209px -3px;
-}
-
-.socials .socials-link.hover {
-  background-position-y: -65px;
+  background-image: url('../img/gihtub.svg');
 }
 
 .sidebar {

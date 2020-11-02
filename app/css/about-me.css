@@ -24,3 +24,28 @@
   margin-left: 55px;
   margin-top: 18px;
 }
+
+.worksheet-wrap {
+  float: right;
+  width: 400px;
+}
+
+.worksheet-list {
+  list-style: none;
+  padding: 0;
+}
+
+.worksheet-what,
+.worksheet-info {
+  display: inline-block;
+  width: 197px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-item {
+  display: inline;
+}
