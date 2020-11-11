@@ -35,17 +35,65 @@
   padding: 0;
 }
 
+.worksheet-item {
+  padding: 3px 0;
+}
+
 .worksheet-what,
 .worksheet-info {
   display: inline-block;
-  width: 197px;
+}
+
+.worksheet-what {
+  margin-right: 20px;
+  font-weight: bold;
+  float: left;
+}
+
+.skills {
+  width: 200px;
 }
 
 .skills-list {
   list-style: none;
   padding: 0;
+  float: right;
 }
 
 .skill-item {
-  display: inline;
+  display: inline-block;
+  background: linear-gradient(
+    180deg,
+    rgba(59, 168, 192, 1) 50%,
+    rgba(46, 140, 162, 1) 50%
+  );
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.experiment {
+  margin-bottom: 25px;
+  padding-left: 125px;
+  background-image: url('../img/exp.png');
+  background-repeat: no-repeat;
+  background-position: 60px center;
+}
+
+.experiment-title {
+  margin: 0;
+}
+
+.education {
+  margin-bottom: 25px;
+  padding-left: 125px;
+  background-image: url('../img/edu.png');
+  background-repeat: no-repeat;
+  background-position: 60px center;
+}
+
+.education-title {
+  margin: 0;
 }
