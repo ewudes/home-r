@@ -266,3 +266,24 @@ body {
   text-decoration: underline;
   background: url(../img/lock-open.png) no-repeat;
 }
+
+.aboutbox {
+  background: #eff3f7;
+  border-radius: 4px;
+  margin-bottom: 26px;
+}
+
+.aboutbox .aboutbox-header {
+  font-family: 'fira_sansbook';
+  font-size: 27px;
+  font-weight: normal;
+  color: #3ba8c0;
+  border-bottom: 2px #3ba8c0 solid;
+  margin: 0 0 23px 0;
+  padding: 13px 23px;
+  display: inline-block;
+}
+
+.aboutbox-body {
+  padding-bottom: 40px;
+}
