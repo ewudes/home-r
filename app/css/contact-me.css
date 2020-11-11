@@ -1,0 +1,32 @@
+.aboutbox-header-contact {
+  font-family: 'fira_sansbook';
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 27px;
+  font-weight: normal;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 18px #67dffa solid;
+  margin: 0 0 50px 0;
+  padding: 50px 0;
+  display: inline-block;
+  background-color: #48cbe8;
+  color: #ffffff;
+}
+
+.form {
+  padding: 0 125px 200px;
+}
+
+.form-label {
+  display: inline-block;
+}
+
+.form-name,
+.form-email {
+  display: block;
+}
+
+.form-msg {
+  width: 100%;
+}
