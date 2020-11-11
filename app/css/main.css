@@ -114,6 +114,55 @@ body {
   background-image: url('../img/gihtub.svg');
 }
 
+.contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts-title {
+  background-color: #3ba8c0;
+  margin: 0;
+  border-radius: 4px 4px 0 0;
+  color: #ffffff;
+  font-style: normal;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.contacts-link {
+  display: block;
+  padding-left: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  background-repeat: no-repeat;
+  background-position: 40px center;
+}
+
+.contacts-link-mail {
+  background-color: #41b9d4;
+  background-image: url('../img/mail.svg');
+}
+
+.contacts-link-phone {
+  background-color: #48cbe8;
+  background-image: url('../img/phone.svg');
+}
+
+.contacts-link-skype {
+  background-color: #51daf8;
+  background-image: url('../img/skype.svg');
+  border-radius: 0 0 4px 4px;
+}
+
+.contacts-link:hover {
+  text-decoration: underline;
+}
+
 .sidebar {
   width: 250px;
   float: left;
