@@ -1,7 +1,8 @@
 {
   "name": "ls-homer",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "dev": "npm run dev"
   },
   "devDependencies": {
     "browser-sync": "2.26.13",
