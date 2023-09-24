@@ -1,0 +1,11 @@
+{
+  "name": "ls-homer",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.13",
+    "gulp": "4.0.2",
+    "gulp-cli": "2.3.0"
+  }
+}
