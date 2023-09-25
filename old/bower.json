@@ -1,8 +1,0 @@
-{
-  "name": "ls-homer",
-  "dependencies": {
-    "jquery": "^3.5.1",
-    "normalize.css": "^8.0.1",
-    "modernizer": "^2.8.2"
-  }
-}
