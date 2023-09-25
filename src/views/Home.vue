@@ -169,14 +169,19 @@
       </div>
     </div>
   </div>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="lock">
+        <a href="/login.html" class="lock-inner">Войти</a>
+      </div>
+    </div>
+    <div class="copyright">Это блок для копирайта</div>
+  </footer>
 </template>
 
 <script>
 export default {
   name: "Home",
-  props: {
-    msg: String,
-  },
 };
 </script>
 
