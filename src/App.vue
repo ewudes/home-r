@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Home />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './views/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './assets/fonts/fira/fira.css';
+  /* @import './assets/fonts/proxima-nova/'; */
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    background: url(./assets/img/pattern.png) repeat;
+    font: normal 1em 'fira_sanslight';
+    color: #4a545d;
+  }
 </style>
