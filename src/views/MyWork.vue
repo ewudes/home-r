@@ -184,7 +184,7 @@ export default {
     border: 1px dashed #3ba8c0;
     border-radius: 4px;
     background-color: #edf8fc;
-    background-image: url('../img/add.png');
+    background-image: url('../assets/img/add.png');
     background-repeat: no-repeat;
     background-position: center 35px;
     transform: translateY(-145px);

@@ -1,14 +1,14 @@
 <template>
-  <Home />
+  <MyWork />
 </template>
 
 <script>
-import Home from './views/Home.vue'
+import MyWork from './views/MyWork.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    MyWork
   }
 }
 </script>
