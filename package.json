@@ -1,12 +1,19 @@
 {
   "name": "home-r",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewudes/home-r.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ewudes/home-r/issues"
+  },
+  "homepage": "https://github.com/ewudes/home-r#readme",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
